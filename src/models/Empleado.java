@@ -1,30 +1,27 @@
 package models;
 
-public class Empleado {
+public class Empleado implements Comparable<Empleado> {
     private int id;
-    private String name;
-    private String position;
+    private String nombre;
+    private String cargo;
 
-    public Empleado(int id, String name, String position) {
+    public Empleado(int id, String nombre, String cargo) {
         this.id = id;
-        this.name = name;
-        this.position = position;
+        this.nombre = nombre;
+        this.cargo = cargo;
     }
 
     public int getId() {
         return id;
     }
 
-    public String getName() {
-        return name;
-    }
-
-    public String getPosition() {
-        return position;
+    @Override
+    public int compareTo(Empleado otro) {
+        return Integer.compare(this.id, otro.id);  
     }
 
     @Override
     public String toString() {
-        return "ID: " + id + ", Name: " + name + ", Position: " + position;
+        return "Empleado{id=" + id + ", nombre='" + nombre + "', cargo='" + cargo + "'}";
     }
 }
