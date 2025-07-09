@@ -6,6 +6,7 @@ public class App {
     }
 
     private static void runMapExample() {
+        System.out.println("Keyra Carvajal");
         System.out.println(">>> Ejecutando ejemplos de mapas...");
 
         Mapa mapa = new Mapa();

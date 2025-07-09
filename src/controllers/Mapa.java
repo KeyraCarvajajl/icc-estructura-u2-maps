@@ -21,13 +21,13 @@ public class Mapa {
         capitales.put("Colombia", "Bogotá");
         capitales.put("Perú", "Lima");
 
-        System.out.println("\n------Mapa de capitales:-------");
+        System.out.println("------Mapa de capitales:-------");
         for (String pais : capitales.keySet()) {
-            System.out.println("\n País: " + pais + ", Capital: " + capitales.get(pais));
+            System.out.println("País: " + pais + ", Capital: " + capitales.get(pais));
         }
 
         String capital = capitales.get("Ecuador");
-        System.out.println("\n La capital de Ecuador es: " + capital);
+        System.out.println("La capital de Ecuador es: " + capital);
 
         Map<Integer, Empleado> empleados = new HashMap<>();
         empleados.put(3, new Empleado(3, "Pedro", "Tester"));
@@ -35,7 +35,7 @@ public class Mapa {
         empleados.put(2, new Empleado(1, "Luis", "Diseñador"));
 
         for (Map.Entry<Integer, Empleado> entry : empleados.entrySet()){
-            System.out.println("\n Clave: " + entry.getKey() + ", Valor: " + entry.getValue());
+            System.out.println("Clave: " + entry.getKey() + ", Valor: " + entry.getValue());
         }
 
         Map<Empleado, Integer> empleadoDos = new HashMap<>();
@@ -62,9 +62,9 @@ public class Mapa {
         productos.put("Queso", 5);
         productos.put("Papa", 15);
 
-        System.out.println("\n -----Mapa de productos:--------");
+        System.out.println("-----Mapa de productos:--------");
         for (String producto : productos.keySet()) {
-            System.out.println("\n Producto: " + producto + " - Cantidad disponible: " + productos.get(producto));
+            System.out.println("Producto: " + producto + " - Cantidad disponible: " + productos.get(producto));
         }
     }
 
@@ -75,12 +75,12 @@ public class Mapa {
         personas.put(2, "Carlos");
         personas.put(4, "Valeria");
 
-        System.out.println("\n ---------Mapa de personas (orden ascendente):---------");
+        System.out.println("---------Mapa de personas (orden ascendente):---------");
         for (Integer id : personas.keySet()) {
             System.out.println("ID: " + id + " - Nombre: " + personas.get(id));
         }
 
-        System.out.println("\n Mapa de personas (orden descendente):");
+        System.out.println("Mapa de personas (orden descendente):");
         for (Integer id : personas.descendingKeySet()) {
             System.out.println("ID: " + id + " - Nombre: " + personas.get(id));
         }
@@ -99,7 +99,7 @@ public class Mapa {
 
         Collections.sort(lista); 
 
-        System.out.println("\nLista ordenada por ID (Comparable):");
+        System.out.println("Lista ordenada por ID (Comparable):");
         for (Empleado e : lista) {
             System.out.println(e);
         }
