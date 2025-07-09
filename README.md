@@ -151,3 +151,7 @@ Si se usara un `HashMap` en lugar de `TreeMap`, entonces `hashCode()` y `equals(
 ### Conclusión
 Para administrar un directorio telefónico sin claves duplicadas y ordenado por nombre, la mejor solución es un **`TreeMap`**. Esto garantiza orden automático y eficiencia en operaciones de búsqueda y modificación.
 
+### EJECUCIÓN
+
+![MAPS](https://github.com/user-attachments/assets/0f4a3390-2616-4673-9b17-b743ad1d1b90)
+
