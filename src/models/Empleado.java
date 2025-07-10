@@ -24,4 +24,9 @@ public class Empleado implements Comparable<Empleado> {
     public String toString() {
         return "Empleado{id=" + id + ", nombre='" + nombre + "', cargo='" + cargo + "'}";
     }
+
+    public Integer getCodigo() {
+        // TODO Auto-generated method stub
+        throw new UnsupportedOperationException("Unimplemented method 'getCodigo'");
+    }
 }
