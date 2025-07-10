@@ -155,3 +155,7 @@ Para administrar un directorio telefónico sin claves duplicadas y ordenado por 
 
 ![MAPS](https://github.com/user-attachments/assets/0f4a3390-2616-4673-9b17-b743ad1d1b90)
 
+### EJECUCIÓN EJERCICIOS
+
+![Ejercicios2](https://github.com/user-attachments/assets/7316e969-990a-4118-80cc-c47efba32ffb)
+
